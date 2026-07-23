@@ -3,6 +3,8 @@
 A Streamlit app that joins **Users**, **Courses**, and **Transactions** data
 (via `UserID` and `CourseID`) to answer EduPro's key learner-analytics questions.
 
+##Live app link - https://analysiseduproproject-zvcfbpiitryaulkmxoxs2n.streamlit.app/
+
 ## Files
 - `app.py` - the Streamlit application
 - `EduPro_Online_Platform.xlsx` - source dataset (Users, Teachers, Courses, Transactions sheets)
