@@ -73,7 +73,7 @@ date_max = full_df["TransactionDate"].max().date()
 date_range = st.sidebar.date_input("Transaction Date Range", (date_min, date_max), min_value=date_min, max_value=date_max)
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Data: Users, Courses & Transactions sheets, joined on UserID and CourseID.")
+
 
 # Apply filters
 mask = (
